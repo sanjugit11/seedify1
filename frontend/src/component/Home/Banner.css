@@ -1,0 +1,32 @@
+.banner {
+  background: url("../../images/banner.jpg");
+  height: 500px;
+  background-size: cover;
+  display: grid;
+  align-items: center;
+  padding: 60px 0;
+}
+.banner h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 62px;
+  line-height: 110%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin: 0px;
+}
+.banner p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 160%;
+  text-align: center;
+  color: #fff;
+}
+.banner p span {
+  color: #d37506;
+}
+.inner_banner {
+  text-align: center;
+}

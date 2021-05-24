@@ -1,0 +1,50 @@
+body {
+  background-color: #18191b;
+  font-family: "Roboto", sans-serif;
+}
+.login-logo {
+  margin: 52px auto 0;
+  display: block;
+  margin-bottom: 40px;
+}
+.login {
+  max-width: 500px;
+  margin: 7% auto;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 10px 27px;
+}
+.login h2 {
+  font-size: 62px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #fff;
+  line-height: 20px;
+  margin-bottom: 63px;
+}
+.login form .sperate-box {
+  margin-bottom: 10px;
+}
+.login form input {
+  background: #fff;
+  width: 89%;
+  height: 40px;
+  padding: 0 20px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+.login .submit {
+  background: #d37506;
+  color: #fff;
+  border-color: #d37506;
+  border: none;
+  font-weight: 500;
+  min-width: 200px;
+  padding: 16px 15px;
+  border-radius: 6px;
+  margin: 25px auto 50px;
+  display: block;
+}
+.login .submit:hover {
+  background: #fff;
+  color: #d37506;
+}

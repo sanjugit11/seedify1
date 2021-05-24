@@ -1,0 +1,255 @@
+.pool_detail_banner {
+	background: url("../../images/banner.jpg");
+	background-size: cover;
+	display: grid;
+	align-items: center;
+	padding: 60px 0;
+}
+.ti_tle {
+	display: grid;
+	grid-template-columns: 100px auto;
+	margin-bottom: 25px;
+}
+.ti_tle h3 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 34px;
+	line-height: 110%;
+	/* or 37px */
+	letter-spacing: 0.02em;
+	color: #ffffff;
+	margin: 0px;
+}
+.inner_pool_detail_banner {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 20px;
+}
+.ti_tle img {
+	background: #fff;
+	border-radius: 6px;
+}
+.ti_tle p {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 150%;
+	color: #fff;
+}
+.ti_tle .socia_l img {
+	background: rgba(244, 244, 244, 0.2);
+	padding: 8px;
+	height: 32px;
+	width: 32px;
+	text-align: center;
+}
+.tit_le2 {
+	display: grid;
+	grid-template-columns: 40px auto;
+	margin-bottom: 25px;
+}
+.tit_le2 h3 span {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 110%;
+	letter-spacing: 0.02em;
+	color: #fff;
+	opacity: 0.5;
+	margin-top: 9px;
+}
+.tit_le2 h3 {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 110%;
+	color: #fff;
+	margin: 3px 0;
+	letter-spacing: 0.02em;
+}
+.detail_card {
+	padding: 30px;
+	background: #242527;
+	border: 1px solid rgba(255, 255, 255, 0.08);
+	box-sizing: border-box;
+	border-radius: 16px;
+}
+.allocation > div:nth-child(2) {
+	text-align: right;
+}
+
+.detail_card .allocation {
+	grid-template-columns: auto auto;
+}
+.detail_card .progress {
+	margin: 10px 0;
+	padding: 0;
+	width: 100%;
+	height: 15px;
+	overflow: hidden;
+	background: rgba(255, 255, 255, 0.08);
+	border-radius: 6px;
+}
+.detail_card .bar {
+	position: relative;
+	float: left;
+	min-width: 1%;
+	height: 100%;
+	background: #d37506;
+}
+
+.gen_btnn {
+	float: right;
+	padding: 6px 7px;
+	min-width: 100px;
+	text-decoration: none;
+	border-radius: 10px;
+	font-family: Roboto;
+	font-style: normal;
+	font-size: 15px;
+	line-height: 12px;
+	text-align: center;
+	letter-spacing: 0.02em;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.btnn_orange {
+	background: #d37506;
+	color: #fff;
+	border-color: #d37506;
+}
+.btnn_orange:hover {
+	background: #fff;
+	color: #d37506;
+}
+.btnn_white {
+	background: transparent;
+	color: #fff;
+	border-color: #fff;
+}
+.btnn_white:hover {
+	background: #d37506;
+	color: #fff;
+	border-color: #d37506;
+}
+.detail_card .percent {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin: 0;
+	font-family: tahoma, arial, helvetica;
+	font-size: 12px;
+	color: white;
+}
+.detail_card .prog_bar span {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 14px;
+	text-transform: capitalize;
+	color: rgba(255, 255, 255, 0.5);
+}
+.detail_card .prog_bar_grd {
+	display: grid;
+	grid-template-columns: auto auto;
+}
+.detail_card .parti {
+	text-align: right;
+}
+.detail_card .prog._percent {
+	color: #d37506;
+}
+.detail_card .parti._nls {
+	color: #d37506;
+}
+.detail_card .prog_bar {
+	padding: 15px 0;
+}
+.detail_card .allocation {
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-gap: 10px;
+}
+.rts {
+	text-align: right;
+}
+.bttn {
+	float: right;
+}
+
+@media (max-width: 1024px) {
+	.pool_grid {
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 25px;
+	}
+	.banner {
+		height: auto;
+	}
+}
+
+@media (max-width: 800px) {
+	.inner_pool_detail_banner {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-gap: 20px;
+	}
+}
+
+@media (max-width: 768px) {
+	.pool_grid {
+		grid-template-columns: auto;
+		grid-gap: 25px;
+	}
+	.banner h1 {
+		font-size: 35px;
+	}
+	.navi_gation .gen_btn {
+		padding: 10px 10px;
+		min-width: 68px;
+		font-size: 10px;
+		line-height: 10px;
+	}
+	.navi_gation .gen_btn.btn_white {
+		margin-right: 2px;
+	}
+	.inner_pool_details {
+		grid-template-columns: auto;
+	}
+	.content_grid {
+		grid-template-columns: auto;
+	}
+}
+@media (max-width: 460px) {
+	.logo img {
+		width: 100%;
+	}
+	.inner_header {
+		grid-template-columns: 130px auto;
+	}
+	.ti_tle {
+		grid-template-columns: 65px auto;
+	}
+	.ti_tle img {
+		background: #fff;
+		border-radius: 6px;
+		width: 73%;
+	}
+}
+@media (max-width: 385px) {
+	.navi_gation .gen_btn {
+		padding: 4px 5px;
+		font-size: 9px;
+	}
+	.navi_gation {
+		display: grid;
+		grid-gap: 4px;
+	}
+	.logo img {
+		max-width: 130px;
+	}
+	.inner_header {
+		grid-template-columns: auto 110px;
+	}
+}
